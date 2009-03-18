@@ -8,7 +8,8 @@ e.g.
     
     // Grab evilFunc
     void (__stdcall *evilFunc)();
-		evilFunc = (void (__stdcall  *)())myLibrary.getProcAddress("evilFunc");
-		
-		// Call evilFunc
-		if (evilFunc) evilFunc();
+    evilFunc = (void (__stdcall  *)())myLibrary.getProcAddress("evilFunc");
+    
+    // Call evilFunc
+    if (evilFunc) evilFunc();
+

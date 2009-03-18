@@ -7,9 +7,10 @@ Refer to the code for examples of incorporating it into your existing code.
 ## Useful #defines
 
 If you do not want support for a particular codec, the following defines are available :
-*NO_AUDIOFILTER* - Removes all AudioFilter's
-*NO_VORBISVORBIS* - Removes ogg vorbis support
-*NO_SPEEXFILTER* - Removes speex support
+
+* *NO_AUDIOFILTER* - Removes all AudioFilter's
+* *NO_VORBISVORBIS* - Removes ogg vorbis support
+* *NO_SPEEXFILTER* - Removes speex support
 
 ## Converting audio (via script)
 

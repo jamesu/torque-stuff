@@ -6,9 +6,10 @@ so large levels will likely lag on low-end systems.
 
 The JKLLevel SceneObject class is based off of Matthew Fairfax's SimplestObject class.
 
-NOTE: textures are hard coded to load from starter.fps/level. So you will need to copy any used textures
-      to this directory. Also, .mat's are *not* supported by torque, so you will need to convert the
-      original textures to .jpg's or .png's. If a texture cannot be found, common/level/dflt is loaded instead.
+NOTE: textures are hard coded to load from starter.fps/level. So you will need to copy 
+any used textures to this directory. Also, .mat's are *not* supported by torque, 
+so you will need to convert the original textures to .jpg's or .png's. 
+If a texture cannot be found, common/level/dflt is loaded instead.
 
 
 ## Installation
@@ -23,7 +24,8 @@ Add the extern :
     extern ResourceInstance *constructJKL(Stream &);
 
 And add this call to the list of similar function calls in initLibraries() :
-ResourceManager->registerExtension(".jkl", constructJKL);
+
+    ResourceManager->registerExtension(".jkl", constructJKL);
 
 Finally, you need to add the JKL Convex type to collision/convex.h :
 
