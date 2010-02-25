@@ -15,6 +15,6 @@ originally distributed on GarageGames.
 
 All code is BSD licensed. See LICENSE for details.
 
-(C)2003 - 2009 James S Urquhart
+(C)2003 - 2010 James S Urquhart
 
 [1]: http://www.garagegames.com
